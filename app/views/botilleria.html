@@ -1,0 +1,25 @@
+<div class="jumbotron">
+    <h1>Formulario para botillerias</h1>
+    <p class="lead">
+        Nos vamos a forrar de morlacos con esta app
+    </p>
+</div>
+<div class="row marketing">
+    <form ng-submit="crearBotilleria()">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nombre de la Botilleria</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="nombre de botilleria" ng-model="datos.name">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Dirección de la Botilleria</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="direccion de botilleria" ng-model="datos.address">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Fono de la Botilleria</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="fono de botilleria" ng-model="datos.phone">
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+    </form>
+</div>
